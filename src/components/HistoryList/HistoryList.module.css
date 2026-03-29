@@ -1,0 +1,21 @@
+.listContainer {
+  max-height: 408px;
+  overflow-y: auto;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  gap: 160px;
+  min-height: 20px;
+}
+
+.removeBtn {
+  color: var(--primary-red);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.item:hover .removeBtn {
+  opacity: 1;
+}
