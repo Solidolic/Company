@@ -6,6 +6,7 @@ import './assets/styles/colors.css';
 import './assets/styles/reset.css';
 import './assets/styles/common.css';
 
+// for review
 const root = document.getElementById('root');
 
 if (!root) {
